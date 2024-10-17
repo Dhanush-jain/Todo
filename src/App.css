@@ -1,0 +1,58 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(193, 153, 229);
+    height: 60px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.hee{
+    text-align: center;
+    padding: 10px 15px;
+}
+.box{
+    height: 35em;
+    width: 39em;
+    background-color:rgb(193, 226, 237);
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    border-radius:10% ;
+    padding: 25px;
+}
+.input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px; 
+    border: 2px solid #ccc; 
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-todo{
+    height: 37px;
+    width: 65px;
+    margin: 5px;
+    padding: 9px 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.edits{
+
+    height: 35px;
+    width: 65px;
+    margin: 5px;
+    padding: 9px 10px;
+    border-radius: 20px;
+    outline: none;
+}
